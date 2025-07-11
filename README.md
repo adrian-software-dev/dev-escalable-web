@@ -1,9 +1,11 @@
 # dev-escalable-web
 
-# third change
+## third change
 
-# Hola jesus el nigga
-# Dos Horas, Dos horas para un commit
+## this file ends with a newline
 
+<<<<<<< HEAD
 
 ## Tres horas para un comit
+
+[EOF]
