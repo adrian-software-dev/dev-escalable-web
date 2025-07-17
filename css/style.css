@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e3a8a; /* Azul moderno */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: auto;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;  /* Apilar verticalmente */
+  align-items: center;     /* Centrar horizontalmente */
+  width: 100%;
+}
+
+h1 {
+  text-align: center;       /* Centra el texto horizontalmente */
+  color: white;             /* Color blanco para que contraste con el fondo azul */
+  font-size: 3rem;          /* Tamaño grande para el título */
+  margin: 40px 0 30px 0;    /* Espaciado arriba y abajo */
+  font-weight: 700;         /* Negrita */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     /* Color del texto */
+}
+/* Contenedor principal */
+.galeria {
+  display: flex;
+  gap: 30px; /* Espacio entre las imágenes */
+}
+/* Cada tarjeta de imagen */
+.tarjeta {
+  display: flex;
+  flex-direction: column; /* Coloca los hijos en vertical */
+  align-items: center;
+  background-color: #2563eb; /* Azul más claro */
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+/* Imágenes */
+.tarjeta img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Botones */
+.tarjeta button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #38bdf8; /* Azul celeste */
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tarjeta button:hover {
+  background-color: #0ea5e9;
+}
