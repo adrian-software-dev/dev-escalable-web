@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #1e3a8a; /* Azul moderno */
   color: white;
   display: flex;
@@ -24,7 +24,7 @@ h1 {
   font-size: 3rem;          /* Tamaño grande para el título */
   margin: 40px 0 30px 0;    /* Espaciado arriba y abajo */
   font-weight: 700;         /* Negrita */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     /* Color del texto */
+  font-family: Arial, sans-serif;     /* Color del texto */
 }
 /* Contenedor principal */
 .galeria {
@@ -71,4 +71,21 @@ h1 {
 
 .tarjeta button:hover {
   background-color: #0ea5e9;
+}
+
+/*Style Adrian.html*/
+.perfil {
+  background-color: white;
+  border: 2px solid #333;
+  padding: 20px;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.perfil img {
+  width: 150px;
+  border-radius: 50%;
 }
